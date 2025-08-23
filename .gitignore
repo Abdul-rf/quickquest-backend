@@ -1,0 +1,8 @@
+# Dependencies
+node_modules
+
+# Credentials - VERY IMPORTANT for security
+credential/serviceAccountKey.json
+
+# Local data
+data/db.json
