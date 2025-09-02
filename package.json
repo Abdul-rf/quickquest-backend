@@ -2,27 +2,16 @@
   "name": "quickquest-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "firebase-admin": "^13.4.0",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Abdul-rf/quickquest-backend.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Abdul-rf/quickquest-backend/issues"
-  },
-  "homepage": "https://github.com/Abdul-rf/quickquest-backend#readme"
+  }
 }
